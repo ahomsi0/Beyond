@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="planet" x1="20" y1="18" x2="47" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FAFF"/>
+      <stop offset=".48" stop-color="#9FB5D9"/>
+      <stop offset="1" stop-color="#53698E"/>
+    </linearGradient>
+    <linearGradient id="orbit" x1="8" y1="42" x2="57" y2="20" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7188B0"/>
+      <stop offset=".55" stop-color="#EEF4FF"/>
+      <stop offset="1" stop-color="#FF9166"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="29" fill="#070A11" stroke="#93A7C8" stroke-opacity=".48" stroke-width="1.5"/>
+  <ellipse cx="32" cy="32" rx="27" ry="10.5" transform="rotate(-19 32 32)" stroke="url(#orbit)" stroke-width="2"/>
+  <circle cx="32" cy="32" r="13.5" fill="url(#planet)"/>
+  <path d="M26.5 19.8c7.2 2.8 12.3 9.8 12.3 18 0 2.3-.4 4.5-1.1 6.5A13.5 13.5 0 1 0 26.5 19.8Z" fill="#111827" fill-opacity=".72"/>
+  <path d="M8.2 40.8c8.5 4.3 22.2 3.7 34.1-1.2 6.7-2.8 11.8-6.4 14.7-10" stroke="url(#orbit)" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="54.3" cy="22.6" r="2.7" fill="#FF9166"/>
+  <circle cx="54.3" cy="22.6" r="5" stroke="#FF9166" stroke-opacity=".22"/>
+</svg>
